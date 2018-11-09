@@ -1,0 +1,6 @@
+{
+  "name": "vtex.pizzahut",
+  "dependencies": {
+    "js-cookie": "^2.2.0"
+  }
+}
