@@ -1,5 +1,5 @@
-@import url(//fonts.googleapis.com/css?family=Zilla+Slab:400);
-@import url(//fonts.googleapis.com/css?family=Zilla+Slab:600);
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab:600);
+@import url(https://fonts.googleapis.com/css?family=Zilla+Slab:400);
 
 body,
 button,
@@ -11,7 +11,7 @@ span,
 h1,
 h2,
 h3,
-h4 {
-  font-family: 'Zilla Slab', serif;
-  color: #ba0000;
+h4,
+p1 {
+  font-family: 'Zilla Slab', serif !important;
 }

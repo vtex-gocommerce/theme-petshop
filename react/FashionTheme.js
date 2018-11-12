@@ -2,7 +2,10 @@ import React, { Component } from 'react'
 import Cookies from 'js-cookie'
 
 import './global.css'
-import './menu.global.css'
+import './header.global.css'
+import './list-products.global.css'
+import './footer.global.css'
+import './product.global.css'
 
 const VTEX_ENV = 'beta'
 
