@@ -1,7 +1,7 @@
 {
   "vendor": "gocommerce",
   "name": "fashion-theme",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "builders": {
     "pages": "0.x",
     "react": "2.x"
