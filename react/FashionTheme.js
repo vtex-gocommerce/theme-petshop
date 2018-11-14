@@ -6,6 +6,8 @@ import './header.global.css'
 import './list-products.global.css'
 import './footer.global.css'
 import './product.global.css'
+import './minicart.sidebar.global.css'
+import './minicart.popup.global.css'
 
 const VTEX_ENV = 'beta'
 

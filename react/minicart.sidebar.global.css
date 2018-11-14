@@ -1,0 +1,80 @@
+.vtex-minicart__sidebar .vtex-product-name__brand {
+  color: #142032;
+  font-size: 14px;
+  font-weight: 600;
+  padding: 0;
+}
+
+.vtex-minicart__sidebar .vtex-product-name__sku {
+  color: #142032;
+  font-family: 'Zilla Slab';
+  font-size: 12px;
+  line-height: 14px;
+  padding: 0;
+}
+
+.vtex-minicart__sidebar .vtex-price-selling {
+  font-size: 16px;
+}
+
+.vtex-minicart__sidebar .vtex-minicart__item-name {
+  margin-bottom: 15px;
+}
+
+.vtex-minicart__sidebar .vtex-minicart__img-container {
+  width: 80px;
+  height: 80px;
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.vtex-minicart__sidebar .vtex-minicart__item {
+  height: auto;
+}
+
+.vtex-minicart__sidebar .vtex-minicart-content__footer .vtex-button {
+  color: #ffffff;
+  height: 48px;
+  padding: 0;
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.vtex-minicart__sidebar .vtex-minicart__content-discount span,
+.vtex-minicart__sidebar .vtex-minicart__content-discount .vtex-price-selling {
+  font-weight: 600;
+  color: #142032;
+}
+
+.vtex-minicart__sidebar .vtex-minicart__content-price {
+  margin: 5px 0 8px;
+}
+
+.vtex-minicart__sidebar .vtex-minicart-content__footer {
+  display: block;
+}
+
+.vtex-minicart__sidebar .vtex-price-selling__container {
+  text-align: right;
+}
+
+@media only screen and (min-width: 40em) {
+  .vtex-minicart__sidebar {
+    width: 400px;
+    padding: 18px 30px;
+  }
+
+  .vtex-minicart__sidebar .vtex-minicart__item > div:first-child {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .vtex-minicart__sidebar .vtex-minicart-content__footer {
+    padding: 16px 0 0 0;
+  }
+}
