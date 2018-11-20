@@ -1,0 +1,31 @@
+.vtex-top-menu {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.vtex-top-menu__search-bar input {
+  border: none;
+  border-bottom: solid 1px #000000;
+  padding: 15px 18px !important;
+}
+
+@media screen and (min-width: 40em) {
+  .vtex-top-menu {
+    height: 80px;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .vtex-top-menu__logo {
+    max-width: 169px;
+  }
+
+  .vtex-top-menu__search-bar {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .vtex-top-menu__icons .mr7-m {
+    margin-right: 8px;
+  }
+}

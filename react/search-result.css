@@ -1,83 +1,3 @@
-.vtex-shelf__title-text {
-  font-weight: 600;
-}
-
-.vtex-product-summary:hover {
-  border: none;
-  box-shadow: none;
-}
-
-.vtex-product-summary__image-container {
-  max-height: 216px;
-  max-width: 216px;
-}
-
-.vtex-discount-badge div.absolute {
-  height: 24px;
-  width: 60px;
-  background-color: #000000;
-  right: -30px;
-}
-
-.vtex-product-summary__name-container {
-  color: #142032;
-  font-family: 'Zilla Slab';
-  font-size: 14px;
-  line-height: 24px;
-  text-align: center;
-  height: auto;
-}
-
-.vtex-product-summary__buy-button {
-  width: 100%;
-}
-
-.vtex-product-summary__buy-button button {
-  width: 100%;
-  border-radius: 4px;
-  background-color: #000000;
-  color: #ffffff;
-  font-family: 'Zilla Slab';
-  font-size: 16px;
-  font-weight: 600;
-  height: 48px;
-  text-align: center;
-  border: none;
-  text-transform: capitalize;
-  max-width: 216px;
-}
-
-.vtex-product-summary__buy-button button:hover {
-  background-color: #000000;
-  color: #ffffff;
-}
-
-.vtex-product-name__brand {
-  font-size: 14px;
-}
-
-.vtex-price-list__label,
-.vtex-price-list {
-  font-weight: 600;
-  font-style: 14px;
-  color: #a1a6ad;
-  text-decoration: none;
-}
-
-.vtex-price-selling__label,
-.vtex-price-selling {
-  color: #142032;
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 24px;
-}
-
-.vtex-price-installments {
-  font-size: 14px;
-  line-height: 24px;
-  color: #142032;
-}
-
 .vtex-page-padding {
   margin: 0 auto;
 }
@@ -88,7 +8,7 @@
 
 .vtex-search-result__order-by .vtex-dropdown__caption {
   color: #142032;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 19px;
 }
@@ -104,7 +24,7 @@
 
 .vtex-search-result__filter-title {
   color: #142032;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 19px;
 }
@@ -115,7 +35,7 @@
 
 .vtex-search-result__filters .ReactCollapse--content a span {
   color: #a1a6ad;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 24px;
   text-transform: capitalize;
 }

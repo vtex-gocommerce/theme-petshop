@@ -10,7 +10,7 @@
 
 .vtex-product-details .vtex-product-name__brand {
   color: #142032;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
   line-height: 43px;
   margin-bottom: 20px;
@@ -21,7 +21,7 @@
 .vtex-product-details .vtex-price-list__label,
 .vtex-product-details .vtex-price-list {
   color: #a1a6ad;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 19px;
 }
@@ -32,14 +32,14 @@
 
 .vtex-product-details .vtex-price-selling__label {
   color: #142032;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   line-height: 24px;
 }
 
 .vtex-product-details .vtex-price-selling {
   color: #142032;
-  font-size: 36px;
+  font-size: 2.25rem;
   font-weight: 600;
   line-height: 43px;
 }
@@ -48,7 +48,7 @@
 .vtex-product-details .vtex-price-installments__value,
 .vtex-product-details .vtex-price-installments {
   color: #a1a6ad;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 19px;
 }
@@ -58,13 +58,13 @@
 }
 
 .vtex-sku-selector__variation {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
   margin-bottom: 10px;
 }
 
 .vtex-sku-selector__variation .b {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: 600;
 }
 
@@ -76,9 +76,13 @@
   background-color: #ffffff;
 }
 
+.vtex-sku-selector__item.b--blue {
+  border: 1px solid #000000;
+}
+
 .vtex-sku-selector__item:hover {
   border-radius: 4px;
-  background-color: #ededed;
+  border: 1px solid #000000;
 }
 
 .vtex-sku-selector {
@@ -91,7 +95,7 @@
   border-radius: 4px;
   background-color: #000000;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   height: 48px;
   text-align: center;
@@ -125,7 +129,7 @@
 .vtex-shipping-simulator__zipcode-label {
   color: #a1a6ad;
   font-family: 'Zilla Slab';
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 24px;
 }
 
@@ -136,7 +140,7 @@
   border-radius: 4px;
   background-color: #000000;
   color: #ffffff;
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 600;
   line-height: 19px;
   text-transform: capitalize;
@@ -151,7 +155,7 @@
 
 .vtex-shipping-table__shipping-name-label,
 .vtex-shipping-table__cell {
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 24px;
   font-weight: normal;
 }
@@ -162,7 +166,7 @@
 
 .vtex-product-description .f4 {
   color: #142032;
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 600;
   line-height: 24px;
   margin-bottom: 35px;
@@ -170,7 +174,7 @@
 
 .vtex-product-description .measure-wide {
   color: #142032;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 24px;
 }
 
@@ -188,14 +192,14 @@
 }
 
 .vtex-product-specifications__specification-name {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: normal;
   text-align: left;
   border: none;
 }
 
 .vtex-product-specifications__specification-values {
-  font-size: 14px;
+  font-size: 0.875rem;
   font-weight: normal;
 }
 

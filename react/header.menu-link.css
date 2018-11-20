@@ -1,0 +1,27 @@
+.vtex-menu {
+  background: #000000;
+  height: 31px;
+}
+.vtex-menu a {
+  color: #ffffff;
+  font-size: 0.75rem;
+  font-weight: 600;
+  line-height: 14px;
+  margin-right: 26px;
+}
+
+.vtex-menu a:last-child {
+  margin-right: 0;
+}
+
+.vtex-menu nav {
+  width: 90%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  margin: 0 auto;
+}
+
+.vtex-menu .items-center {
+  margin-left: -8px;
+  margin-right: -8px;
+}
