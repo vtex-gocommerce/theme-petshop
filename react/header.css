@@ -9,6 +9,15 @@
   padding: 15px 18px !important;
 }
 
+.vtex-top-menu-fixed {
+  border-width: 1px;
+  border-bottom: solid #edeff2 1px;
+}
+.vtex-top-menu__logo {
+  max-width: 100px;
+  margin-left: 5px;
+}
+
 @media screen and (min-width: 40em) {
   .vtex-top-menu {
     height: 80px;
@@ -18,6 +27,7 @@
 
   .vtex-top-menu__logo {
     max-width: 169px;
+    margin-left: 0;
   }
 
   .vtex-top-menu__search-bar {
