@@ -1,13 +1,13 @@
 {
   "vendor": "gocommerce",
   "name": "fashion-theme",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "builders": {
     "pages": "0.x",
     "react": "2.x"
   },
   "mustUpdateAt": "2018-09-05",
-  "categories": [],
+  "categories": ["theme"],
   "registries": ["smartcheckout"],
   "settingsSchema": {},
   "scripts": {
