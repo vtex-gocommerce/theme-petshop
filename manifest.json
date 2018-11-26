@@ -1,16 +1,14 @@
 {
   "vendor": "gocommerce",
   "name": "fashion-theme",
-  "version": "0.1.7",
+  "version": "0.1.8",
   "builders": {
     "pages": "0.x",
     "react": "2.x"
   },
   "mustUpdateAt": "2018-09-05",
   "categories": [],
-  "registries": [
-    "smartcheckout"
-  ],
+  "registries": ["smartcheckout"],
   "settingsSchema": {},
   "scripts": {
     "postreleasy": "vtex publish --verbose"
