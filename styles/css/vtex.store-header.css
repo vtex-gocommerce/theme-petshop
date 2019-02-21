@@ -4,8 +4,7 @@
 }
 
 .container > div > div:global(.bb.bw1.b--muted-4) {
-  border-width: 1px;
-  border-bottom: solid #edeff2 1px;
+  display: none;
 }
 
 .topMenuContainer {

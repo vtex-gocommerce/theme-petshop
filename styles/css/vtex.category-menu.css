@@ -1,14 +1,22 @@
+section[data-extension-point*='$before_0/category-menu'] {
+  background: #e2a7b3;
+}
+
+.container {
+  background: transparent;
+}
+
 .container > ul {
   height: 60px;
 }
 
 .itemContainer > a {
-  color: #142032;
+  color: #fff;
   font-weight: 600;
 }
 
 .itemContainer a:global(.b--action-primary) {
-  border-bottom-color: #142032;
+  border-bottom-color: #038686;
 }
 
 .firstLevelLink {

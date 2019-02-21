@@ -4,6 +4,10 @@
 
 .title {
   font-weight: 600;
-  color: #142032;
+  color: #038686;
   padding: 2rem 0;
+}
+
+.container [class*='slick-dots'] {
+  display: none;
 }

@@ -32,7 +32,7 @@
   "header.full": {
     "blocks": ["login", "minicart", "logo", "search-bar", "menu-link", "telemarketing", "category-menu"],
     "props": {
-      "logoUrl": "https://static.gocommerce.com/gc-pej4453/assets/gocommerce/png/logo-gocommerce___920efcbbf0948ae30ff97cd0b02d16c4.png"
+      "logoUrl": "https://static.gocommerce.com/gc-prw6252/assets/gocommerce/png/petshop-logo___fa866ef7a6118f19f97c5ee98759b279.png"
     }
   },
   "login": {
@@ -96,8 +96,8 @@
   },
   "footer": {
     "props": {
-      "showPaymentFormsInColor": false,
-      "showSocialNetworksInColor": false,
+      "showPaymentFormsInColor": true,
+      "showSocialNetworksInColor": true,
       "socialNetworks": [
         {
           "__editorItemTitle": "Facebook",
@@ -219,7 +219,7 @@
       ],
       "height": 440,
       "showArrows": true,
-      "showDots": false
+      "showDots": true
     }
   },
   "shelf#home": {

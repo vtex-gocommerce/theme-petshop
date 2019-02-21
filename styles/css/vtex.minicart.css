@@ -6,6 +6,10 @@
   text-transform: capitalize;
 }
 
+.container > [class*='vtex-button'] svg {
+  color: #038686;
+}
+
 .sidebarHeader > div {
   display: none;
 }
@@ -106,7 +110,7 @@
   height: 48px;
   padding: 0;
   border-radius: 4px;
-  background-color: #000000;
+  background-color: #038686;
   border: none;
   width: 100%;
   font-size: 1rem;

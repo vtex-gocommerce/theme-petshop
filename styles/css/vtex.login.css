@@ -7,6 +7,10 @@
   text-transform: capitalize;
 }
 
+.container > div > [class*='vtex-button'] svg {
+  color: #038686;
+}
+
 .contentContainer,
 .arrowUp {
   border: 1px solid #e3e4e6;
@@ -32,7 +36,7 @@
 }
 
 .button button:hover {
-  background: #000;
+  background: #038686;
   color: #fff;
 }
 
@@ -42,8 +46,12 @@
   font-weight: 600;
   height: 44px;
   border-radius: 4px;
-  background-color: #000000;
+  background-color: #038686;
   border: none;
+}
+
+.sendButton > button:hover {
+  background-color: #038686;
 }
 
 .backButton > button,

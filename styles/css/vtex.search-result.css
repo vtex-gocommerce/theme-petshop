@@ -56,3 +56,7 @@
 .filter div:global(.ReactCollapse--content) a:hover span {
   color: #000;
 }
+
+.buttonShowMore button {
+  background: #e2a7b3;
+}

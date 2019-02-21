@@ -1,12 +1,12 @@
 .footer {
   border: none;
-  background-color: #000000;
+  background-color: #038686;
   color: #ffffff;
   margin-top: 30px;
 }
 
 .container {
-  background-color: #000000;
+  background-color: #038686;
   color: #ffffff;
 }
 
@@ -28,7 +28,7 @@
 
 .textInformation {
   width: 90%;
-  color: #a1a6ad;
+  color: #fff;
   font-size: 0.75rem;
   line-height: 14px;
   padding-left: 0px;

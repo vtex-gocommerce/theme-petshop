@@ -1,8 +1,8 @@
 {
   "vendor": "gocommerce",
-  "name": "fashion-theme",
+  "name": "theme-petshop",
   "version": "0.2.0",
-  "title": "Gocommerce Fashion Theme",
+  "title": "Gocommerce Petshop Theme",
   "description": "",
   "mustUpdateAt": "2019-10-24",
   "builders": {
