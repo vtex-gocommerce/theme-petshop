@@ -1,0 +1,19 @@
+{
+  "editor.hero-header.title": "Hero Banner",
+  "editor.hero-header.isEnabled.title": "Hero Banner Is Enabled",
+  "editor.hero-header.isRightCalloutEnabled.title": "Right Callout Is Enabled",
+  "editor.hero-header.headline.title": "Headline",
+  "editor.hero-header.sub-headline.title": "Sub Headline Copy",
+  "editor.hero-header.primaryCtaText.title": "Primary Button CTA",
+  "editor.hero-header.primaryCtaUrl.title": "Primary Button Link",
+  "editor.hero-header.secondaryCtaTitle.title": "Secondary Button Title",
+  "editor.hero-header.secondaryCtaText.title": "Secondary Button CTA",
+  "editor.hero-header.secondaryCtaUrl.title": "Secondary Button Link",
+  "editor.hero-header.price.title": "Secondary Callout Price",
+  "Water Softeners": "Water Softeners",
+  "Owner Center": "Owner Center",
+  "Resources": "Resources",
+  "Promotions": "Promotions",
+  "Misc Links": "Misc Links",
+  "add.to.cart.text": "Add To Cart"
+}

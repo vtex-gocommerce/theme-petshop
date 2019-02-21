@@ -1,7 +1,0 @@
-{
-  "extensions": {
-    "store/custom-theme": {
-      "component": "FashionTheme"
-    }
-  }
-}

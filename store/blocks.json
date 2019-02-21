@@ -1,0 +1,337 @@
+{
+  "store.home": {
+    "blocks": ["carousel#home", "shelf#home", "shelf#home"]
+  },
+  "store.product": {
+    "blocks": ["product-details#default", "product-kit", "shelf.relatedProducts"]
+  },
+  "store.search": {
+    "blocks": ["search-result"]
+  },
+  "store.search#brand": {
+    "blocks": ["search-result"]
+  },
+  "store.search#department": {
+    "blocks": ["search-result#department"]
+  },
+  "store.search#category": {
+    "blocks": ["search-result"]
+  },
+  "store.search#subcategory": {
+    "blocks": ["search-result"]
+  },
+  "store.account": {
+    "blocks": ["my-account"],
+    "parent": {
+      "challenge": "challenge.profile"
+    }
+  },
+  "store.login": {
+    "blocks": ["login-content#default"]
+  },
+  "header.full": {
+    "blocks": ["login", "minicart", "logo", "search-bar", "menu-link", "telemarketing", "category-menu"],
+    "props": {
+      "logoUrl": "https://static.gocommerce.com/gc-pej4453/assets/gocommerce/png/logo-gocommerce___920efcbbf0948ae30ff97cd0b02d16c4.png"
+    }
+  },
+  "login": {
+    "props": {
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "menu-link": {
+    "props": {
+      "links": [
+        {
+          "text": "Contact Us",
+          "typeOfRoute": "internal",
+          "internalPage": "store.home",
+          "position": "left"
+        },
+        {
+          "text": "My Requests",
+          "typeOfRoute": "internal",
+          "internalPage": "store.home",
+          "position": "left"
+        },
+        {
+          "text": "My Account",
+          "typeOfRoute": "internal",
+          "internalPage": "store.home",
+          "position": "left"
+        },
+        {
+          "text": "Wishlist",
+          "typeOfRoute": "internal",
+          "internalPage": "store.home",
+          "position": "right"
+        },
+        {
+          "text": "Support",
+          "typeOfRoute": "internal",
+          "internalPage": "store.home",
+          "position": "right"
+        }
+      ]
+    }
+  },
+  "category-menu": {
+    "props": {
+      "showAllDepartments": false
+    }
+  },
+  "minicart": {
+    "blocks": ["product-summary"],
+    "props": {
+      "type": "sidebar",
+      "showRemoveButton": true,
+      "showDiscount": true,
+      "showSku": true,
+      "labelMiniCartEmpty": "Your cart is empty!",
+      "labelButtonFinishShopping": "Go to Checkout",
+      "enableQuantitySelector": true,
+      "maxQuantity": 10
+    }
+  },
+  "footer": {
+    "props": {
+      "showPaymentFormsInColor": false,
+      "showSocialNetworksInColor": false,
+      "socialNetworks": [
+        {
+          "__editorItemTitle": "Facebook",
+          "socialNetwork": "Facebook"
+        },
+        {
+          "__editorItemTitle": "Instagram",
+          "socialNetwork": "Instagram"
+        },
+        {
+          "__editorItemTitle": "Youtube",
+          "socialNetwork": "Youtube"
+        }
+      ],
+      "sectionLinks": [
+        {
+          "__editorItemTitle": "Institucional",
+          "title": "Institucional",
+          "links": [
+            {
+              "__editorItemTitle": "Garantia Estendida",
+              "title": "Garantia Estendida"
+            },
+            {
+              "__editorItemTitle": "Relações com investidores",
+              "title": "Relações com investidores"
+            },
+            {
+              "__editorItemTitle": "Trabalhe conosco",
+              "title": "Trabalhe conosco"
+            },
+            {
+              "__editorItemTitle": "Política de privacidade",
+              "title": "Política de privacidade"
+            }
+          ]
+        },
+        {
+          "__editorItemTitle": "Dúvidas",
+          "title": "Dúvidas",
+          "links": [
+            {
+              "__editorItemTitle": "Atendimento",
+              "title": "Atendimento"
+            },
+            {
+              "__editorItemTitle": "Trocas e devoluções",
+              "title": "Trocas e devoluções"
+            },
+            {
+              "__editorItemTitle": "Direito de arrependimento",
+              "title": "Direito de arrependimento"
+            },
+            {
+              "__editorItemTitle": "Politica de entrega",
+              "title": "Politica de entrega"
+            }
+          ]
+        },
+        {
+          "__editorItemTitle": "Nosso Cartão",
+          "title": "Nosso Cartão",
+          "links": [
+            {
+              "__editorItemTitle": "Peça já o seu!",
+              "title": "Peça já o seu!"
+            },
+            {
+              "__editorItemTitle": "Central de Promoções",
+              "title": "Central de Promoções"
+            },
+            {
+              "__editorItemTitle": "Programas Milhas",
+              "title": "Programas Milhas"
+            },
+            {
+              "__editorItemTitle": "Benefícios",
+              "title": "Benefícios"
+            }
+          ]
+        }
+      ],
+      "badges": [],
+      "paymentForms": [
+        {
+          "__editorItemTitle": "Crédito",
+          "title": "Crédito",
+          "paymentTypes": ["MasterCard", "Visa", "Diners Club"]
+        },
+        {
+          "__editorItemTitle": "Débito",
+          "title": "Débito",
+          "paymentTypes": ["MasterCard", "Visa", "Diners Club"]
+        }
+      ],
+      "storeInformations": [
+        {
+          "__editorItemTitle": "Informação da Loja",
+          "storeInformation": "Todas as regras e promoções são válidas apenas para produtos vendidos e entregues pela nossa Loja. O valor de oferta do produto será garantido após a finalização da compra. Havendo divergência, prevalecerá o menor preço ofertado. \n\n\nStore pictures: https://photos.icons8.com"
+        },
+        {
+          "__editorItemTitle": "Endereço",
+          "storeInformation": "CNPJ n.º 01.002.333/0001-00  | Centro Empresarial Botafogo - Praia de Botafogo, 300 - 2º Andar - Botafogo, Rio de Janeiro - RJ, 22250-040- empresa do grupo VTEX. "
+        }
+      ]
+    }
+  },
+  "carousel#home": {
+    "props": {
+      "autoplay": true,
+      "autoplaySpeed": 4,
+      "banners": [
+        {
+          "image": "https://static.gocommerce.com/gc-pej4453/assets/gocommerce/png/banner1___9604c9ba269a97f0120afd6e02213dfc.png"
+        },
+        {
+          "image": "https://static.gocommerce.com/gc-pej4453/assets/gocommerce/png/banner1___9604c9ba269a97f0120afd6e02213dfc.png"
+        }
+      ],
+      "height": 440,
+      "showArrows": true,
+      "showDots": false
+    }
+  },
+  "shelf#home": {
+    "blocks": ["product-summary"],
+    "props": {
+      "orderBy": "OrderByTopSaleDESC",
+      "productList": {
+        "maxItems": 10,
+        "itemsPerPage": 4,
+        "scroll": "BY_PAGE",
+        "arrows": true,
+        "titleText": "Top Sellers",
+        "summary": {
+          "displayBuyButton": "displayButtonHover",
+          "isOneClickBuy": true,
+          "showBadge": true,
+          "badgeText": "OFF",
+          "buyButtonText": "Add to cart",
+          "showCollections": false,
+          "showListPrice": true,
+          "showLabels": true,
+          "showInstallments": true,
+          "showSavings": false,
+          "name": {
+            "showBrandName": true,
+            "showSku": false,
+            "showProductReference": false
+          }
+        }
+      }
+    }
+  },
+  "product-details#default": {
+    "blocks": [
+      "breadcrumb",
+      "product-name",
+      "product-images",
+      "product-price",
+      "product-description",
+      "product-specifications",
+      "buy-button",
+      "sku-selector",
+      "availability-subscriber",
+      "share",
+      "shipping-simulator"
+    ],
+    "props": {
+      "displayVertically": false,
+      "share": {
+        "social": {
+          "Facebook": true,
+          "Twitter": true,
+          "WhatsApp": true
+        }
+      },
+      "price": {
+        "labelSellingPrice": null,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": true,
+        "showSavings": true
+      },
+      "name": {
+        "showBrandName": false,
+        "showSku": false,
+        "showProductReference": false
+      }
+    }
+  },
+  "search-result#department": {
+    "blocks": ["filter-navigator", "gallery", "not-found", "breadcrumb", "order-by", "total-products"],
+    "props": {
+      "querySchema": {
+        "maxItemsPerPage": 2,
+        "orderByField": "OrderByReleaseDateDESC"
+      },
+      "hiddenFacets": {
+        "layoutMode1": "normal",
+        "layoutMode2": "small",
+        "specificationFilters": {
+          "hiddenFilters": [
+            {
+              "__editorItemTitle": "editor.search-result.hiddenFacets.specificationFilters.hiddenFilter"
+            }
+          ]
+        }
+      },
+      "summary": {
+        "isOneClickBuy": false,
+        "showBadge": true,
+        "displayBuyButton": "displayButtonHover",
+        "buyButtonText": "Add to cart",
+        "showCollections": false,
+        "labelSellingPrice": null,
+        "showListPrice": true,
+        "showLabels": true,
+        "showInstallments": false,
+        "showSavings": false,
+        "name": {
+          "showBrandName": false,
+          "showSku": false,
+          "showProductReference": false
+        }
+      },
+      "pagination": "show-more"
+    }
+  },
+  "login-content#default": {
+    "props": {
+      "isInitialScreenOptionOnly": false,
+      "defaultOption": 1,
+      "showPasswordVerificationIntoTooltip": true
+    }
+  }
+}

@@ -1,0 +1,62 @@
+.container div:global(.mr3.nl3.flex.items-center) {
+  margin-right: 8px;
+}
+
+.label {
+  padding: 0;
+  text-transform: capitalize;
+}
+
+.contentContainer,
+.arrowUp {
+  border: 1px solid #e3e4e6;
+  box-shadow: none;
+}
+
+.formTitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding-top: 0;
+  color: #a1a6ad;
+  text-transform: uppercase;
+}
+
+.button button {
+  border: 1px solid #e3e4e6;
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #142032;
+  font-size: 0.875rem;
+  font-weight: 600;
+  text-transform: none;
+}
+
+.button button:hover {
+  background: #000;
+  color: #fff;
+}
+
+.sendButton > button {
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  height: 44px;
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+}
+
+.backButton > button,
+.formLinkContainer a {
+  height: 44px;
+  color: #142032;
+  font-size: 1rem;
+  line-height: 19px;
+}
+
+.inputContainer input {
+  height: 44px;
+  border: 1px solid #e3e4e6;
+  border-radius: 4px;
+  background-color: #ffffff;
+}

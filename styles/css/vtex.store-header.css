@@ -1,0 +1,39 @@
+.container > div > section {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.container > div > div:global(.bb.bw1.b--muted-4) {
+  border-width: 1px;
+  border-bottom: solid #edeff2 1px;
+}
+
+.topMenuContainer {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.topMenuContainer:global(.bw1) {
+  border-width: 1px;
+  border-bottom: solid #edeff2 1px;
+}
+
+@media screen and (min-width: 40em) {
+  .topMenuContainer {
+    height: 80px;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .topMenuSearchBar {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .topMenuSearchBar > :global(.w-75) {
+    width: 100%;
+  }
+  .vtex-top-menu__icons .mr7-m {
+    margin-right: 8px;
+  }
+}

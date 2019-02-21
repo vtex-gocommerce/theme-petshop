@@ -1,0 +1,217 @@
+.logoContainer {
+  max-width: 100px;
+  margin-left: 5px;
+}
+
+.searchBarContainer input {
+  border: none;
+  border-bottom: solid 1px #000000;
+  padding: 15px 18px !important;
+  height: 48px;
+}
+
+.searchBarContainer input:hover {
+  border-bottom: solid 1px #000000;
+}
+
+.searchBarContainer input + span svg {
+  color: #aeaeae;
+  width: 18px;
+  height: 18px;
+}
+
+.dots {
+  display: none;
+}
+
+.productNameContainer {
+  color: #142032;
+  font-size: 0.875rem;
+  line-height: 18px;
+  text-align: center;
+  height: auto;
+  padding-bottom: 0px;
+}
+
+.productBrand {
+  font-size: 0.875rem;
+}
+
+.listPriceLabel,
+.listPriceValue {
+  font-weight: 600;
+  font-size: 14px;
+  color: #a1a6ad;
+  text-decoration: none;
+}
+
+.sellingPriceLabel,
+.sellingPrice {
+  color: #142032;
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.installmentsPrice {
+  font-size: 0.875rem;
+  line-height: 24px;
+  color: #142032;
+}
+
+.skuSelectorContainer {
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.skuSelectorNameContainer > div {
+  margin-left: 0;
+}
+
+.skuSelectorName {
+  color: #142032;
+  font-size: 0.875rem;
+  font-weight: 600;
+}
+
+.skuSelectorItem {
+  height: 50px;
+  width: 50px;
+  border: 1px solid #e3e4e6;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+
+.frameAround:global(.b--action-primary.ba) {
+  border: 1px solid #000000;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 4px;
+}
+
+.skuSelectorItemImage :global(.b--muted-4),
+.skuSelectorItem :global(.b--muted-4) {
+  border-radius: 4px;
+  border-color: transparent;
+}
+
+.skuSelectorItemImage :global(.hover-b--muted-2:hover) {
+  border: 1px solid #000000;
+}
+
+.skuSelectorItem div:global(.c-on-base.center.pl5.pr5.z-1) {
+  padding: 0;
+}
+
+.skuSelectorSubcontainer {
+  margin-bottom: 1rem;
+}
+
+.shippingContainer {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  margin-top: -20px;
+}
+
+.shippingZipcodeLabel {
+  color: #a1a6ad;
+  font-size: 0.875rem;
+  line-height: 24px;
+  margin-bottom: 0;
+}
+
+.shippingContainer input {
+  height: 40px;
+  border: 1px solid #e3e4e6;
+  border-radius: 4px;
+  margin-left: 10px;
+}
+
+.shippingContainer button:global(.vtex-button) {
+  border: none;
+  margin-left: 10px;
+  height: 40px;
+  width: 79px;
+  border-radius: 4px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 19px;
+  text-transform: capitalize;
+}
+
+.shippingTable {
+  margin-top: 10px;
+  width: 100%;
+  border: 1px solid #d8d8d8;
+}
+
+.shippingTableLabel,
+.shippingTableCell {
+  font-size: 0.875rem;
+  line-height: 24px;
+  font-weight: normal;
+  color: #142032;
+}
+
+.shareContainer {
+  display: flex;
+  align-items: center;
+}
+
+.shareLabel {
+  margin-right: 1rem;
+  margin-bottom: 0px;
+}
+
+.specificationsTable {
+  border: 1px solid #d8d8d8;
+  border-radius: 4px;
+}
+
+.specificationsTable thead {
+  display: none;
+}
+
+.specificationsTable tbody tr:nth-child(even) {
+  background-color: #f6f6f6;
+}
+
+.specificationsTable td,
+.specificationsTable th {
+  padding: 10px;
+  font-size: 0.875rem;
+  font-weight: normal;
+}
+
+.carouselGaleryCursor :global(.swiper-caret-next) svg,
+.carouselGaleryCursor :global(.swiper-caret-prev) svg {
+  color: #000;
+}
+
+.carouselGaleryCursor :global(.swiper-caret-next.c-disabled) svg,
+.carouselGaleryCursor :global(.swiper-caret-prev.c-disabled) svg {
+  color: #ededed;
+}
+
+.carouselGaleryCursor :global(.swiper-pagination-bullet) {
+  color: #000;
+}
+
+@media screen and (min-width: 40em) {
+  .logoContainer {
+    max-width: 168px;
+    margin-left: 0px;
+  }
+
+  .arrowLeft {
+    left: -50px !important;
+  }
+
+  .arrowRight {
+    right: -50px !important;
+  }
+}

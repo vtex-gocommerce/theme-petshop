@@ -1,5 +1,3 @@
-# Fashion Theme
+# fashion-theme
 
-The customized template for DreamStore
-
-`vtex install gocommerce.fashion-theme`
+Gocommerce Fashion Theme

@@ -1,0 +1,115 @@
+.badge {
+  background-color: #000000;
+}
+
+.label {
+  text-transform: capitalize;
+}
+
+.sidebarHeader > div {
+  display: none;
+}
+
+.sidebarHeader [class*='label'] {
+  color: #a1a6ad;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.sidebar [class*='container'],
+.container [class*='container'] {
+  max-width: 100% !important;
+}
+
+.sidebar [class*='productNameContainer'],
+.container [class*='productNameContainer'] {
+  text-align: left !important;
+}
+
+.sidebar [class*='productBrand'],
+.container [class*='productBrand'] {
+  color: #142032;
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding: 0;
+  text-align: left;
+}
+
+.sidebar [class*='sellingPrice'],
+.container [class*='sellingPrice'] {
+  font-size: 1rem;
+}
+
+.sidebar [class*='imageContainer'],
+.container [class*='imageContainer'] {
+  width: 80px;
+  height: 80px;
+  max-width: 80px;
+  max-height: 80px;
+}
+
+.sidebar [class*='information'] > :global(.mt3.nr2),
+.container [class*='information'] > :global(.mt3.nr2) {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar [class*='information'] > :global(.mt3.nr2) > div,
+.container [class*='information'] > :global(.mt3.nr2) > div {
+  display: block;
+  height: auto;
+}
+
+.sidebar [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-2.flex-none) button,
+.sidebar [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-0.flex-none) button,
+.container [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-2.flex-none) button,
+.container [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-0.flex-none) button {
+  background: #fff;
+  border: 1px solid #e3e4e6;
+  font-size: 0.9rem;
+  color: #000;
+  padding: 0 15px;
+}
+
+.sidebar [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-0.flex-none) button:global(.c-disabled),
+.container [class*='information'] > :global(.mt3.nr2) :global(.z-2.order-0.flex-none) button:global(.c-disabled) {
+  background: #ededed;
+  color: #b6b7b8;
+}
+
+.sidebar [class*='information'] > :global(.mt3.nr2) :global(.order-1),
+.container [class*='information'] > :global(.mt3.nr2) :global(.order-1) {
+  padding: 0 15px;
+  border-top: 1px solid #e3e4e6;
+  border-bottom: 1px solid #e3e4e6;
+}
+
+.sidebar [class*='information'] [class*='sellingPrice'],
+.container [class*='information'] [class*='sellingPrice'] {
+  color: #142032;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.contentFooter > div {
+  width: 100%;
+}
+
+.contentPrice {
+  width: auto !important;
+}
+
+.contentFooter [class*='vtex-button'] {
+  color: #ffffff;
+  height: 48px;
+  padding: 0;
+  border-radius: 4px;
+  background-color: #000000;
+  border: none;
+  width: 100%;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 19px;
+}

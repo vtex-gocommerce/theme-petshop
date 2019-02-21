@@ -1,0 +1,58 @@
+.container {
+  padding-top: 1rem;
+}
+
+.orderBy > div > label > div {
+  border: 1px solid #e3e4e6;
+  border-radius: 4px;
+  color: #142032;
+}
+
+.orderBy div:global(.vtex-dropdown__arrow) {
+  color: #142032;
+}
+
+.totalProducts span {
+  font-size: 0.9rem;
+  color: #142032;
+}
+
+.filters,
+.resultGallery {
+  margin-top: 1rem;
+}
+
+.filter {
+  border: none;
+  padding-bottom: 0;
+}
+
+.filterTitle {
+  color: #142032;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.filterIcon svg {
+  display: block;
+  color: #142032;
+  width: 10px;
+  height: 10px;
+}
+
+.filter div:global(.ReactCollapse--content) {
+  padding: 10px 0 24px;
+}
+
+.filter div:global(.ReactCollapse--content) a {
+  line-height: 22px;
+}
+
+.filter div:global(.ReactCollapse--content) a span {
+  color: #a1a6ad;
+}
+
+.filter div:global(.ReactCollapse--content) a:hover span {
+  color: #000;
+}
