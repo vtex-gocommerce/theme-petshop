@@ -19,7 +19,6 @@
 
 .container a {
   color: #ffffff;
-  font-size: 0.875rem;
 }
 
 .paymentMatrixItem {
@@ -28,8 +27,5 @@
 
 .textInformation {
   width: 90%;
-  color: #fff;
-  font-size: 0.75rem;
-  line-height: 14px;
   padding-left: 0px;
 }

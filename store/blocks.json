@@ -98,6 +98,7 @@
     "props": {
       "showPaymentFormsInColor": true,
       "showSocialNetworksInColor": true,
+      "showVtexLogoInColor": false,
       "socialNetworks": [
         {
           "__editorItemTitle": "Facebook",

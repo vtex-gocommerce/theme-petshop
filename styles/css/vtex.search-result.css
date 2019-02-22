@@ -3,9 +3,8 @@
 }
 
 .orderBy > div > label > div {
-  border: 1px solid #e3e4e6;
+  border-width: 1px;
   border-radius: 4px;
-  color: #142032;
 }
 
 .orderBy div:global(.vtex-dropdown__arrow) {
@@ -28,15 +27,11 @@
 }
 
 .filterTitle {
-  color: #142032;
-  font-size: 1rem;
   font-weight: 600;
-  line-height: 19px;
 }
 
 .filterIcon svg {
   display: block;
-  color: #142032;
   width: 10px;
   height: 10px;
 }
@@ -47,16 +42,4 @@
 
 .filter div:global(.ReactCollapse--content) a {
   line-height: 22px;
-}
-
-.filter div:global(.ReactCollapse--content) a span {
-  color: #a1a6ad;
-}
-
-.filter div:global(.ReactCollapse--content) a:hover span {
-  color: #000;
-}
-
-.buttonShowMore button {
-  background: #e2a7b3;
 }

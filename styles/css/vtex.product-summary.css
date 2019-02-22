@@ -1,22 +1,14 @@
 .container {
-  max-width: 216px;
   overflow: inherit;
 }
 
-.container:hover {
-  border: none;
-  box-shadow: none;
-}
-
-.image {
+.imageContainer {
   max-height: 216px;
   max-width: 216px;
 }
 
 .imageContainer div:global(.relative) div:global(.absolute) {
   height: auto;
-  width: 65px;
-  background-color: #038686;
   right: -30px;
 }
 
@@ -25,28 +17,9 @@
   padding-bottom: 0.8rem;
 }
 
-.priceContainer {
-  padding-top: 0;
-}
-
 .buyButton button {
   width: 100%;
   border-radius: 4px;
-  background-color: #e2a7b3;
-  color: #ffffff;
-  font-family: 'Zilla Slab';
-  font-size: 1rem;
-  font-weight: 600;
-  height: 48px;
-  text-align: center;
-  border: none;
-  text-transform: capitalize;
-  max-width: 216px;
-}
-
-.buyButton button:hover {
-  background-color: #ededed;
-  color: #000000;
 }
 
 @media screen and (min-width: 40em) {

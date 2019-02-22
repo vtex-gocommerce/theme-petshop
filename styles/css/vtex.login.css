@@ -1,10 +1,14 @@
-.container div:global(.mr3.nl3.flex.items-center) {
-  margin-right: 8px;
-}
-
 .label {
   padding: 0;
   text-transform: capitalize;
+}
+
+.formTitle {
+  font-size: 0.875rem;
+  font-weight: 600;
+  padding-top: 0;
+  color: #a1a6ad;
+  text-transform: uppercase;
 }
 
 .container > div > [class*='vtex-button'] svg {
@@ -17,54 +21,29 @@
   box-shadow: none;
 }
 
-.formTitle {
-  font-size: 0.875rem;
-  font-weight: 600;
-  padding-top: 0;
-  color: #a1a6ad;
-  text-transform: uppercase;
-}
-
 .button button {
-  border: 1px solid #e3e4e6;
   border-radius: 4px;
-  background-color: #ffffff;
-  color: #142032;
   font-size: 0.875rem;
   font-weight: 600;
   text-transform: none;
 }
 
-.button button:hover {
-  background: #038686;
-  color: #fff;
+.sendButton > button {
+  border-radius: 4px;
 }
 
-.sendButton > button {
-  color: #ffffff;
+.sendButton > button span {
   font-size: 1rem;
   font-weight: 600;
-  height: 44px;
-  border-radius: 4px;
-  background-color: #038686;
-  border: none;
 }
 
-.sendButton > button:hover {
-  background-color: #038686;
-}
-
-.backButton > button,
+.backButton > button span,
 .formLinkContainer a {
-  height: 44px;
-  color: #142032;
   font-size: 1rem;
-  line-height: 19px;
 }
 
 .inputContainer input {
   height: 44px;
-  border: 1px solid #e3e4e6;
+  border-width: 1px;
   border-radius: 4px;
-  background-color: #ffffff;
 }

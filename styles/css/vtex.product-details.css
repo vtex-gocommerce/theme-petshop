@@ -2,7 +2,7 @@
   padding-top: 2rem;
 }
 
-.nameContainer + div {
+.container > div > article > :global(.flex.flex-wrap) {
   margin-top: 1rem;
 }
 
@@ -27,14 +27,12 @@
 }
 
 .priceContainer div[class*='sellingPriceLabel'] {
-  color: #142032;
   font-size: 1.25rem;
   font-weight: 600;
   line-height: 24px;
 }
 
 .priceContainer div[class*='sellingPrice '] {
-  color: #142032;
   font-size: 2.25rem;
   font-weight: 600;
   line-height: 2.25rem;
@@ -53,48 +51,40 @@
 .detailsContainer button:global(.vtex-button.t-action) {
   width: auto;
   border-radius: 4px;
-  background-color: #038686;
-  color: #ffffff;
-  font-size: 1rem;
   font-weight: 600;
   height: 48px;
-  text-align: center;
-  border: none;
   text-transform: capitalize;
   margin-top: -20px;
 }
 
-.informationsContainerph5 > :global(.flex.justify-between) {
+.informationsContainer > :global(.flex.justify-between) {
   display: block;
 }
 
-.informationsContainerph5 :global(.t-heading-5) {
-  color: #142032;
-  font-size: 1.25rem;
+.informationsContainer :global(.t-heading-5) {
   font-weight: 600;
-  line-height: 24px;
   margin-bottom: 20px;
 }
 
-.informationsContainerph5 [class*='productDescriptionContainer'] {
+.informationsContainer [class*='productDescriptionContainer'] p {
   color: #142032;
   font-size: 0.875rem;
   line-height: 24px;
 }
 
-.informationsContainerph5 [class*='productDescriptionContainer'] :global(.relative) {
+.informationsContainer [class*='productDescriptionContainer'] :global(.relative) {
   height: auto !important;
   overflow: initial !important;
 }
 
-.informationsContainerph5 [class*='pointerEventsNone'] {
+.informationsContainer [class*='pointerEventsNone'] {
   display: none;
 }
 
-.informationsContainerph5 [class*='specificationsTableContainer'] {
+.informationsContainer [class*='specificationsTableContainer'] {
   padding: 0;
 }
 
-.informationsContainerph5 [class*='specificationsTable'] {
+.informationsContainer [class*='specificationsTable'] {
   margin-top: 14px;
 }

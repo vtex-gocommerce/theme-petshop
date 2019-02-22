@@ -10,6 +10,11 @@ section[data-extension-point*='$before_0/category-menu'] {
   height: 60px;
 }
 
+.itemContainer > section {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
 .itemContainer > a {
   color: #fff;
   font-weight: 600;
@@ -20,14 +25,10 @@ section[data-extension-point*='$before_0/category-menu'] {
 }
 
 .firstLevelLink {
-  color: #142032;
-  font-size: 14px;
   font-weight: 500;
-  line-height: 24px;
 }
 
 .secondLevelLink {
-  color: #a1a6ad;
   font-size: 12px;
   line-height: 30px;
   padding-top: 0;
