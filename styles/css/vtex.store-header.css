@@ -1,3 +1,8 @@
+/* Force header size to prevent wrong size */
+.container + :global(.z-1.bg-base.w-100.relative) {
+  height: 144px !important;
+}
+
 .topMenuContainer,
 .container > div > section {
   padding-left: 1.5rem;

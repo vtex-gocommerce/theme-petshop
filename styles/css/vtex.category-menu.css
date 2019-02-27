@@ -2,6 +2,11 @@
   background: #e2a7b3;
 }
 
+.container > section {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
 .container > ul {
   height: 60px;
 }
