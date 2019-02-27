@@ -32,7 +32,7 @@
   "header.full": {
     "blocks": ["login", "minicart", "logo", "search-bar", "menu-link", "telemarketing", "category-menu"],
     "props": {
-      "logoUrl": "https://static.gocommerce.com/gc-prw6252/assets/gocommerce/png/petshop-logo___fa866ef7a6118f19f97c5ee98759b279.png"
+      "logoUrl": "https://static.gocommerce.com/gc-wqp6166/assets/gocommerce/png/logo-zen___d7d86cabd178c600ec16d80be67d93ac.png"
     }
   },
   "login": {
