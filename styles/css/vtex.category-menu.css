@@ -1,9 +1,5 @@
-section[data-extension-point*='$before_0/category-menu'] {
-  background: #e2a7b3;
-}
-
 .container {
-  background: transparent;
+  background: #e2a7b3;
 }
 
 .container > ul {

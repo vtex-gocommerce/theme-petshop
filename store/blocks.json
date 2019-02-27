@@ -1,6 +1,6 @@
 {
   "store.home": {
-    "blocks": ["carousel#home", "shelf#home", "shelf#home"]
+    "blocks": ["carousel#home", "shelf#home"]
   },
   "store.product": {
     "blocks": ["product-details#default", "product-kit", "shelf.relatedProducts"]
@@ -102,15 +102,13 @@
       "socialNetworks": [
         {
           "__editorItemTitle": "Facebook",
-          "socialNetwork": "Facebook"
+          "socialNetwork": "Facebook",
+          "url": "https://www.facebook.com/lojazencat/"
         },
         {
           "__editorItemTitle": "Instagram",
-          "socialNetwork": "Instagram"
-        },
-        {
-          "__editorItemTitle": "Youtube",
-          "socialNetwork": "Youtube"
+          "socialNetwork": "Instagram",
+          "url": "https://www.instagram.com/lojazencat/"
         }
       ],
       "sectionLinks": [
@@ -119,20 +117,19 @@
           "title": "Institucional",
           "links": [
             {
-              "__editorItemTitle": "Garantia Estendida",
-              "title": "Garantia Estendida"
+              "__editorItemTitle": "Quem somos",
+              "title": "Quem somos",
+              "url": "https://docs.google.com/document/d/1CGSgnXDHSC9TcGeXgQq3pmK98ACk_I8wIdRrrOA0DO4/edit"
             },
             {
-              "__editorItemTitle": "Relações com investidores",
-              "title": "Relações com investidores"
-            },
-            {
-              "__editorItemTitle": "Trabalhe conosco",
-              "title": "Trabalhe conosco"
+              "__editorItemTitle": "Termos e condições",
+              "title": "Termos e condições",
+              "url": "https://docs.google.com/document/d/1IyJQl0mmY1rr94TpTXil36mmGScCihD72SZRCxOb5Gg/edit"
             },
             {
               "__editorItemTitle": "Política de privacidade",
-              "title": "Política de privacidade"
+              "title": "Política de privacidade",
+              "url": "https://docs.google.com/document/d/1RaeaaEGzbTovVeA6tFt_P5jrpf1Fb90XIX2BzWPWqYU/edit?usp=sharing"
             }
           ]
         },
@@ -201,7 +198,7 @@
         },
         {
           "__editorItemTitle": "Endereço",
-          "storeInformation": "CNPJ n.º 01.002.333/0001-00  | Centro Empresarial Botafogo - Praia de Botafogo, 300 - 2º Andar - Botafogo, Rio de Janeiro - RJ, 22250-040- empresa do grupo VTEX. "
+          "storeInformation": "CNPJ:  20.396.183/0001-13 | Rua Cônego Altino De Moura, 244 - Centro Taubaté - SP, 12080-530 - ZEN ANIMAL COMERCIO DE ARTIGOS PARA ANIMAIS LTDA"
         }
       ]
     }
@@ -212,10 +209,7 @@
       "autoplaySpeed": 4,
       "banners": [
         {
-          "image": "https://static.gocommerce.com/gc-pej4453/assets/gocommerce/png/banner1___9604c9ba269a97f0120afd6e02213dfc.png"
-        },
-        {
-          "image": "https://static.gocommerce.com/gc-pej4453/assets/gocommerce/png/banner1___9604c9ba269a97f0120afd6e02213dfc.png"
+          "image": "https://static.gocommerce.com/gc-wqp6166/assets/gocommerce/png/zencat-banner___e58ba14fc6088dcab609594f6fdf991b.png"
         }
       ],
       "height": 440,
@@ -232,7 +226,7 @@
         "itemsPerPage": 4,
         "scroll": "BY_PAGE",
         "arrows": true,
-        "titleText": "Top Sellers",
+        "titleText": "Preferidos dos Gatinhos",
         "summary": {
           "displayBuyButton": "displayButtonHover",
           "isOneClickBuy": true,
