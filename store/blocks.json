@@ -30,7 +30,7 @@
     "blocks": ["login-content#default"]
   },
   "header.full": {
-    "blocks": ["login", "minicart", "logo", "search-bar", "menu-link", "telemarketing", "category-menu"],
+    "blocks": ["login", "minicart", "logo", "search-bar", "telemarketing", "category-menu"],
     "props": {
       "logoUrl": "https://static.gocommerce.com/gc-wqp6166/assets/gocommerce/png/logo-zen___d7d86cabd178c600ec16d80be67d93ac.png"
     }
