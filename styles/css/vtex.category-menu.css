@@ -2,36 +2,10 @@
   background: #e2a7b3;
 }
 
-.container > section {
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.container > ul {
-  height: 60px;
-}
-
-.itemContainer > section {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 .itemContainer > a {
   color: #fff;
-  font-weight: 600;
 }
 
 .itemContainer a:global(.b--action-primary) {
   border-bottom-color: #038686;
-}
-
-.firstLevelLink {
-  font-weight: 500;
-}
-
-.secondLevelLink {
-  font-size: 12px;
-  line-height: 30px;
-  padding-top: 0;
-  padding-bottom: 0;
 }
