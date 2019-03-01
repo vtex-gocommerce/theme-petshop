@@ -2,3 +2,32 @@
 .container + :global(.z-1.bg-base.w-100.relative) {
   height: 144px !important;
 }
+
+.topMenuContainer,
+.container > div > section {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.container > div > div:global(.bb.bw1.b--muted-4) {
+  display: none;
+}
+
+.topMenuCollapsible:global(.bw1) {
+  border-width: 1px;
+}
+
+@media screen and (min-width: 40em) {
+  .topMenuContainer {
+    height: 80px;
+  }
+
+  .topMenuSearchBar {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .topMenuSearchBar > :global(.w-75) {
+    width: 100%;
+  }
+}
