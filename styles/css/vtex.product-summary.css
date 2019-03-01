@@ -1,0 +1,26 @@
+.container {
+  overflow: inherit;
+}
+
+.imageContainer {
+  max-height: 216px;
+  max-width: 216px;
+}
+
+.imageContainer div:global(.relative) div:global(.absolute) {
+  height: auto;
+  right: -30px;
+}
+
+.nameContainer {
+  padding-top: 0.8rem;
+  padding-bottom: 0.8rem;
+}
+
+.buyButton button {
+  width: 100%;
+  border-radius: 4px;
+}
+
+@media screen and (min-width: 40em) {
+}
