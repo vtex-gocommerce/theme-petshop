@@ -1,6 +1,6 @@
 /* Force header size to prevent wrong size */
 .container + :global(.z-1.bg-base.w-100.relative) {
-  height: 144px !important;
+  height: 64px !important;
 }
 
 .topMenuContainer,
@@ -18,6 +18,11 @@
 }
 
 @media screen and (min-width: 40em) {
+  /* Force header size to prevent wrong size */
+  .container + :global(.z-1.bg-base.w-100.relative) {
+    height: 144px !important;
+  }
+
   .topMenuContainer {
     height: 80px;
   }

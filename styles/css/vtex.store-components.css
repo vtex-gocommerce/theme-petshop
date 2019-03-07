@@ -4,7 +4,7 @@
 
 .searchBarContainer input {
   border-width: 1px;
-  padding: 15px 18px !important;
+  padding: 15px 35px !important;
   border-radius: 4px;
   height: 48px;
   color: #142032;
@@ -181,5 +181,9 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
 
   .arrowRight {
     right: -50px !important;
+  }
+
+  .searchBarContainer input {
+    padding: 15px 18px !important;
   }
 }

@@ -88,8 +88,8 @@
       "showRemoveButton": true,
       "showDiscount": true,
       "showSku": true,
-      "labelMiniCartEmpty": "Your cart is empty!",
-      "labelButtonFinishShopping": "Go to Checkout",
+      "labelMiniCartEmpty": "Carrinho vazio!",
+      "labelButtonFinishShopping": "Finalizar compra",
       "enableQuantitySelector": true,
       "maxQuantity": 10
     }
@@ -130,50 +130,27 @@
               "__editorItemTitle": "Política de privacidade",
               "title": "Política de privacidade",
               "url": "https://docs.google.com/document/d/1RaeaaEGzbTovVeA6tFt_P5jrpf1Fb90XIX2BzWPWqYU/edit?usp=sharing"
+            },
+            {
+              "__editorItemTitle": "Uma loja Zen Animal",
+              "title": "Uma loja Zen Animal",
+              "url": "https://www.zenanimal.com.br"
             }
           ]
         },
         {
-          "__editorItemTitle": "Dúvidas",
-          "title": "Dúvidas",
+          "__editorItemTitle": "Contatos",
+          "title": "Contatos",
           "links": [
             {
-              "__editorItemTitle": "Atendimento",
-              "title": "Atendimento"
+              "__editorItemTitle": "Whatsapp: (21) 99203-3111",
+              "title": "Whatsapp: (21) 99203-3111",
+              "url": "#"
             },
             {
-              "__editorItemTitle": "Trocas e devoluções",
-              "title": "Trocas e devoluções"
-            },
-            {
-              "__editorItemTitle": "Direito de arrependimento",
-              "title": "Direito de arrependimento"
-            },
-            {
-              "__editorItemTitle": "Politica de entrega",
-              "title": "Politica de entrega"
-            }
-          ]
-        },
-        {
-          "__editorItemTitle": "Nosso Cartão",
-          "title": "Nosso Cartão",
-          "links": [
-            {
-              "__editorItemTitle": "Peça já o seu!",
-              "title": "Peça já o seu!"
-            },
-            {
-              "__editorItemTitle": "Central de Promoções",
-              "title": "Central de Promoções"
-            },
-            {
-              "__editorItemTitle": "Programas Milhas",
-              "title": "Programas Milhas"
-            },
-            {
-              "__editorItemTitle": "Benefícios",
-              "title": "Benefícios"
+              "__editorItemTitle": "E-mail: zencat@zenanimal.com.br",
+              "title": "E-mail: zencat@zenanimal.com.br",
+              "url": "#"
             }
           ]
         }
@@ -232,7 +209,7 @@
           "isOneClickBuy": true,
           "showBadge": true,
           "badgeText": "OFF",
-          "buyButtonText": "Add to cart",
+          "buyButtonText": "Comprar",
           "showCollections": false,
           "showListPrice": true,
           "showLabels": true,
@@ -306,7 +283,7 @@
         "isOneClickBuy": false,
         "showBadge": true,
         "displayBuyButton": "displayButtonHover",
-        "buyButtonText": "Add to cart",
+        "buyButtonText": "Comprar",
         "showCollections": false,
         "labelSellingPrice": null,
         "showListPrice": true,
