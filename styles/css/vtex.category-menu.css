@@ -19,6 +19,8 @@
 .itemContainer > a {
   color: #fff;
   font-weight: 600;
+  padding-top: 23px;
+  padding-bottom: 23px;
 }
 
 .itemContainer a:global(.b--action-primary) {
