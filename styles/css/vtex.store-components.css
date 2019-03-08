@@ -86,6 +86,7 @@ div[class='vtex-carousel'] div[class*='slick-dots'] :global(.slick-active) butto
 .skuSelectorItemImage :global(.b--muted-4),
 .skuSelectorItem :global(.b--muted-4) {
   border-radius: 4px;
+  z-index: 0;
 }
 
 .skuSelectorItem div:global(.c-on-base.center.pl5.pr5.z-1) {
