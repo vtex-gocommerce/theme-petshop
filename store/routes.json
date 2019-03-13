@@ -1,0 +1,11 @@
+{
+  "store.home.custom#quem-somos": {
+    "path": "/quem-somos"
+  },
+  "store.home.custom#termos-e-condicoes": {
+    "path": "/termos-e-condicoes"
+  },
+  "store.home.custom#politica-de-privacidade": {
+    "path": "/politica-de-privacidade"
+  }
+}

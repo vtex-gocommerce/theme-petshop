@@ -1,7 +1,7 @@
 {
   "vendor": "gc-wqp6166",
   "name": "theme-petshop",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "title": "Gocommerce Petshop Theme",
   "description": "",
   "mustUpdateAt": "2019-10-24",
@@ -12,6 +12,7 @@
     "messages": "1.x"
   },
   "dependencies": {
+    "gocommerce.institutional-page": "1.x",
     "vtex.store-graphql": "2.x",
     "vtex.store": "2.x",
     "vtex.styleguide": "9.x",
