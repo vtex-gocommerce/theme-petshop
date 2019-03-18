@@ -113,67 +113,66 @@
       ],
       "sectionLinks": [
         {
-          "__editorItemTitle": "Institucional",
-          "title": "Institucional",
+          "__editorItemTitle": "Institutional",
+          "title": "Institutional",
           "links": [
             {
-              "__editorItemTitle": "Quem somos",
-              "title": "Quem somos",
-              "url": ""
+              "__editorItemTitle": "About us",
+              "title": "About us",
+              "url": "/page-institutional",
+              "target": "_self"
             },
             {
-              "__editorItemTitle": "Termos e condições",
-              "title": "Termos e condições",
-              "url": ""
+              "__editorItemTitle": "Terms and conditions",
+              "title": "Terms and conditions",
+              "url": "/page-institutional",
+              "target": "_self"
             },
             {
-              "__editorItemTitle": "Política de privacidade",
-              "title": "Política de privacidade",
-              "url": ""
+              "__editorItemTitle": "Privacy policy",
+              "title": "Privacy policy",
+              "url": "/page-institutional",
+              "target": "_self"
             }
           ]
         },
         {
-          "__editorItemTitle": "Dúvidas",
-          "title": "Dúvidas",
+          "__editorItemTitle": "Common Questions",
+          "title": "Common Questions",
           "links": [
             {
-              "__editorItemTitle": "Atendimento",
-              "title": "Atendimento"
+              "__editorItemTitle": "Attendance",
+              "title": "Attendance",
+              "url": "/page-institutional",
+              "target": "_self"
             },
             {
-              "__editorItemTitle": "Trocas e devoluções",
-              "title": "Trocas e devoluções"
+              "__editorItemTitle": "Exchanges and Returns",
+              "title": "Exchanges and Returns",
+              "url": "/page-institutional",
+              "target": "_self"
             },
             {
-              "__editorItemTitle": "Direito de arrependimento",
-              "title": "Direito de arrependimento"
-            },
-            {
-              "__editorItemTitle": "Politica de entrega",
-              "title": "Politica de entrega"
+              "__editorItemTitle": "Delivery Policy",
+              "title": "Delivery Policy",
+              "url": "/page-institutional",
+              "target": "_self"
             }
           ]
         },
         {
-          "__editorItemTitle": "Nosso Cartão",
-          "title": "Nosso Cartão",
+          "__editorItemTitle": "Contact",
+          "title": "Contact",
           "links": [
             {
-              "__editorItemTitle": "Peça já o seu!",
-              "title": "Peça já o seu!"
+              "__editorItemTitle": "Whatsapp: +55 (00) 0000-0000",
+              "title": "Whatsapp: +55 (00) 0000-0000",
+              "url": ""
             },
             {
-              "__editorItemTitle": "Central de Promoções",
-              "title": "Central de Promoções"
-            },
-            {
-              "__editorItemTitle": "Programas Milhas",
-              "title": "Programas Milhas"
-            },
-            {
-              "__editorItemTitle": "Benefícios",
-              "title": "Benefícios"
+              "__editorItemTitle": "E-mail: gocommerce@gocommerce.com",
+              "title": "E-mail: gocommerce@gocommerce.com",
+              "url": "mailto:gocommerce@gocommerce.com"
             }
           ]
         }
@@ -193,12 +192,12 @@
       ],
       "storeInformations": [
         {
-          "__editorItemTitle": "Informação da Loja",
-          "storeInformation": "Todas as regras e promoções são válidas apenas para produtos vendidos e entregues pela nossa Loja. O valor de oferta do produto será garantido após a finalização da compra. Havendo divergência, prevalecerá o menor preço ofertado. \n\n\nStore pictures: https://photos.icons8.com"
+          "__editorItemTitle": "Shop info",
+          "storeInformation": "All rules and promotions are valid only for products sold and delivered through our Store. The offer value of the product will be guaranteed after the completion of the purchase. If there is divergence, the lowest price will prevail."
         },
         {
-          "__editorItemTitle": "Endereço",
-          "storeInformation": "CNPJ n.º 01.002.333/0001-00  | Centro Empresarial Botafogo - Praia de Botafogo, 300 - 2º Andar - Botafogo, Rio de Janeiro - RJ, 22250-040- empresa do grupo VTEX."
+          "__editorItemTitle": "Address",
+          "storeInformation": "CNPJ n.º 01.002.333/0001-00  | Centro Empresarial Botafogo - Praia de Botafogo, 300 - 2º Andar - Botafogo, Rio de Janeiro - RJ, 22250-040 - VTEX."
         }
       ]
     }
@@ -327,6 +326,13 @@
       "isInitialScreenOptionOnly": false,
       "defaultOption": 1,
       "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "store.home.custom#page-institutional": {
+    "blocks": ["institutional-page"],
+    "props": {
+      "headline": "Institutional Page",
+      "html": "<span class=\"t-heading-3\">Institutional Page</span> <br/><br/>Institutional Page example<br/><br/>"
     }
   }
 }
