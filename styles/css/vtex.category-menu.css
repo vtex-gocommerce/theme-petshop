@@ -21,6 +21,7 @@
   font-weight: 600;
   padding-top: 23px;
   padding-bottom: 23px;
+  text-transform: uppercase;
 }
 
 .itemContainer a:global(.b--action-primary) {
@@ -29,6 +30,7 @@
 
 .firstLevelLink {
   font-weight: 500;
+  text-transform: uppercase;
 }
 
 .secondLevelLink {
