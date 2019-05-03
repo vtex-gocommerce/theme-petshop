@@ -1,15 +1,14 @@
 {
   "vendor": "gc-wqp6166",
   "name": "theme-petshop",
-  "version": "1.8.4",
+  "version": "1.8.5",
   "title": "Gocommerce Petshop Theme",
   "description": "",
   "mustUpdateAt": "2019-10-24",
   "builders": {
     "styles": "1.x",
     "store": "0.x",
-    "react": "3.x",
-    "messages": "1.x"
+    "react": "3.x"
   },
   "dependencies": {
     "gocommerce.institutional-page": "1.x",
